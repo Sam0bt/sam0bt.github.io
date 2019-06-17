@@ -1,0 +1,33 @@
+# Site settings
+title: sam0bt@sam0bt:~ $
+description: >  #
+  
+url: #
+baseurl: # 
+
+disqus_shortname: sam0bt # leave empty if you don't want comments
+google_analytics: false #if set to "true" modify the google_analytycs.html, set to false otherwise
+
+# Links settings
+links:
+  - name:         Anasayfa
+    url:          /
+  - name:         Hakkımda
+    url:          /hakkimda
+    external:     false
+  - name:         Arşiv
+    url:          /arsiv
+    external:     false
+    external:     false
+  - name:         GitHub
+    url:          http://github.com/Sam0bt
+    external:     true
+    highlighter: rouge
+
+
+# Build settings
+markdown: kramdown
+markdown_ext:  markdown,mkdown,mkdn,mkd,md
+
+redcarpet:
+  extensions: ["tables", "autolink", "strikethrough", "space_after_headers", "fenced_code_blocks"]

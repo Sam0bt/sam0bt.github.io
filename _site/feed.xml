@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sam0bt@sam0bt:~ $</title>
+    <description></description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 17 Jun 2019 18:13:52 +0300</pubDate>
+    <lastBuildDate>Mon, 17 Jun 2019 18:13:52 +0300</lastBuildDate>
+    <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Pisi Linux Lazarus Kurulumu</title>
+        <description>&lt;h2 id=&quot;lazarus-nedir&quot;&gt;Lazarus Nedir?&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/lazarus1.png&quot; alt=&quot;panda&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Lazarus açık kaynak kodu ile dağıtılan Free Pascal ile geliştirilmiş görsel geliştirme arayüzüdür. Lazarus IDE (Integrated development environment : Tümleşik geliştirme arayüzü) ile bir çok ortam için yazılım geliştirilebilir.&lt;/p&gt;
+
+&lt;h2 id=&quot;farklı-sistemlerde-aynı-yazılım&quot;&gt;Farklı Sistemlerde Aynı Yazılım&lt;/h2&gt;
+
+&lt;p&gt;Lazarus, programlama dili değil, Delphi programlama dilinin geliştirme ortamıdır. Derleyicisi ise FPC (Free Pascal Compiler). Görsel programlama konusunda en gelişmiş, geliştirme ortamlardan birisidir. Bunun sebebi ise Çapraz Platform. Cross-platform programming yada Multi Platform Programming ile Yazdığımız bir programı birden fazla işletim sistemin ve işlemci ile çalıştırmayı kastediyoruz. Yani yazdığınız bir uygulamayı Lazarus ayarlarından FPC sayesinde istediğiniz işletim sistemi ve işlemciye göre derleyebiliyorsunuz.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/lazarus2.png&quot; alt=&quot;panda&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;lazarusta-programlama&quot;&gt;Lazarus’ta programlama&lt;/h2&gt;
+
+&lt;p&gt;Lazarus, component(Bileşen) bakımında zengin ve çeşitli olması bunun yanı sıra kendi yazdığınız veya lazarus geliştiricileri tarafından yazılan eklentileri eklemek başka bir güzelliği. Diğer geliştirme ortamlara nazaran daha farklı bir görünüme sahip. Pencereler birbirinden ayrıdır(Component menüsü, Tools menüsü, mesaj bölümü).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/lazarus3.png&quot; alt=&quot;panda&quot; /&gt;
+&lt;img src=&quot;http://localhost:4000/assets/lazarus4.png&quot; alt=&quot;panda&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;pisi-linuxa-kurma&quot;&gt;Pisi Linux’a Kurma&lt;/h2&gt;
+
+&lt;p&gt;Lazarus, 1.8.4 en sürümü ile Pisi Linux deposunda. Kurulumu paket yöneticisinden veya konsoldan aşağıda ki komut ile kurabilirsiniz.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;n&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pisi&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;em&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;lazarus&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+</description>
+        <pubDate>Sat, 15 Jun 2019 00:00:00 +0300</pubDate>
+        <link>http://localhost:4000/linux/2019/06/15/pisilinux-lazarus-kurulumu.html</link>
+        <guid isPermaLink="true">http://localhost:4000/linux/2019/06/15/pisilinux-lazarus-kurulumu.html</guid>
+        
+        <category>linux,</category>
+        
+        <category>lazarus</category>
+        
+        
+        <category>linux</category>
+        
+      </item>
+    
+  </channel>
+</rss>
