@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>lolcat ile Konsoldan renkli çıktı almak</title>
+  <meta name="description" content="lolcat ile Konsoldan renkli çıktı almak">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://localhost:4000/linux/2019/08/18/linux-renkli-cikti-almak-lolcat.html">
+  <link rel="alternate" type="application/rss+xml" title="sam0bt@sam0bt:~ $" href="http://localhost:4000/feed.xml" />
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+</head>
+
+
+  <body>
+
+    <div class="site-header">
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <i class="fa fa-navicon fa-lg"></i>
+      </a>
+
+      <div class="trigger">
+        
+          <a class="page-link" target="_top"
+             href="http://localhost:4000/">Anasayfa</a>
+        
+          <a class="page-link" target="_top"
+             href="http://localhost:4000/hakkimda">Hakkımda</a>
+        
+          <a class="page-link" target="_top"
+             href="http://localhost:4000/arsiv">Arşiv</a>
+        
+          <a class="page-link" target="_blank"
+             href="http://github.com/Sam0bt">GitHub</a>
+        
+      </div>
+    </nav>
+
+</div>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+     <h1 class="post-title">lolcat ile Konsoldan renkli çıktı almak</h1>
+     <p class="post-meta">
+         <i class="fa fa-calendar-o"></i> Aug 18, 2019
+          • <i class="fa fa-user"></i> Sami BABAT
+         </p>
+  </header>
+
+    <div class="post-paging">
+  
+    <div class="left">
+      <a href="/linux/2019/06/15/pisilinux-lazarus-kurulumu.html">
+        <i class="fa fa-angle-left fa-2x"></i>
+      </a>
+    </div>
+  
+  
+</div>
+
+
+  <article class="post-content">
+    <h2 id="lolcat-ile-konsoldan-renkli-çıktı-almak">lolcat ile Konsoldan renkli çıktı almak</h2>
+
+<p>Linux denilince akla gelen ilk şey, siyah bir ekran ve siyah ekranda hızlı hızlı geçişen yazılar. Romantik bir kavram kullandım gibi :) Çoğu kullanıcı estetikliği sever eğlenceli ve hoş bir uygulamamız var. bu uygulama, konsolda renkli çıktılar vermemizi sağlıyor.</p>
+
+<div class="embed-container">
+  <iframe src="https://www.youtube.com/embed/2gZvBZsLqWA" width="700" height="480" frameborder="0" allowfullscreen="">
+  </iframe>
+</div>
+
+<h1 id="kurulum">KURULUM</h1>
+
+<p>Tüm linux dağıtımları için kurulum göstereceğim için dağıtımlara özel paket yöneticileri ile kurulum yapmayacam. Ruby’in gem sistemini kullanarak kuralım. Tabi siz paket yöneticisinden kurmak isterseniz(Kullandığınız dağıtım deposunda varsa) lolcat diye aratmanız yeterli.</p>
+
+<p>İNDİRME LİNKİ: <a href="https://github.com/rubygems/rubygems/archive/master.zip">https://github.com/rubygems/rubygems/archive/master.zip</a></p>
+
+<p>Eğer Git kurulu ise indirme linkini es geçip aşağıdan devam edin.</p>
+
+<p>Git tamamsa konsolu açıp lolcatı kuralım.</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">git clone https://github.com/rubygems/rubygems.git</code></pre></figure>
+
+<p>İndirdiğiniz dizin içine girin ve aşağıda ki komutu verin(Ruby kurulu olması gerekir/varsayılan olarak kurulu gelir.)</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">sudo </span>ruby setup.rb</code></pre></figure>
+
+<p>Kurulumu test etmek için:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">gem <span class="nt">-v</span></code></pre></figure>
+
+<p>Gem paket yöneticisini kurduğumuza göre lolcat’a geçelim.
+Kurulum için aşağıda ki komutu vererek kuralım</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">sudo </span>gem <span class="nb">install </span>lolcat</code></pre></figure>
+
+<h1 id="kullanim">KULLANIM</h1>
+
+<p>lolcat tüm seçenekleri için lolcat -h komutunu verebilirsiniz.</p>
+
+<p>Kullandığınız tüm komutları renkli çıktı olarak almak isterseniz:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">&lt;komut&gt; | lolcat</code></pre></figure>
+
+<p>cal | lolcat
+yada text olarak</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">echo</span> <span class="s2">"Renkli yazı"</span> | lolcat <span class="nt">-a</span> <span class="nt">-d</span> 500</code></pre></figure>
+
+  </article>
+
+    
+
+    
+       <div class="block">
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+      var disqus_shortname = "sam0bt";
+      (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+  </script>
+</div>
+    
+
+  <div class="post-up" align="center">
+  	<a href="#">
+  	<i class="fa fa-angle-up fa-2x"></i>
+  	</a>
+  </div>
+
+</div>
+      </div>
+    </div>
+
+  <div class="footer center">
+
+  Built with Jekyll using
+  <a href="https://github.com/kuoa/julia" target="_blank">Julia</a>
+  theme
+  <img src='/assets/logo.png'>
+
+</div>
+
+
+  </body>
+</html>

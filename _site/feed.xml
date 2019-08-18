@@ -5,9 +5,71 @@
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 17 Jun 2019 18:13:52 +0300</pubDate>
-    <lastBuildDate>Mon, 17 Jun 2019 18:13:52 +0300</lastBuildDate>
+    <pubDate>Mon, 19 Aug 2019 02:22:42 +0300</pubDate>
+    <lastBuildDate>Mon, 19 Aug 2019 02:22:42 +0300</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>lolcat ile Konsoldan renkli çıktı almak</title>
+        <description>&lt;h2 id=&quot;lolcat-ile-konsoldan-renkli-çıktı-almak&quot;&gt;lolcat ile Konsoldan renkli çıktı almak&lt;/h2&gt;
+
+&lt;p&gt;Linux denilince akla gelen ilk şey, siyah bir ekran ve siyah ekranda hızlı hızlı geçişen yazılar. Romantik bir kavram kullandım gibi :) Çoğu kullanıcı estetikliği sever eğlenceli ve hoş bir uygulamamız var. bu uygulama, konsolda renkli çıktılar vermemizi sağlıyor.&lt;/p&gt;
+
+&lt;div class=&quot;embed-container&quot;&gt;
+  &lt;iframe src=&quot;https://www.youtube.com/embed/2gZvBZsLqWA&quot; width=&quot;700&quot; height=&quot;480&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;
+  &lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&quot;kurulum&quot;&gt;KURULUM&lt;/h1&gt;
+
+&lt;p&gt;Tüm linux dağıtımları için kurulum göstereceğim için dağıtımlara özel paket yöneticileri ile kurulum yapmayacam. Ruby’in gem sistemini kullanarak kuralım. Tabi siz paket yöneticisinden kurmak isterseniz(Kullandığınız dağıtım deposunda varsa) lolcat diye aratmanız yeterli.&lt;/p&gt;
+
+&lt;p&gt;İNDİRME LİNKİ: &lt;a href=&quot;https://github.com/rubygems/rubygems/archive/master.zip&quot;&gt;https://github.com/rubygems/rubygems/archive/master.zip&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Eğer Git kurulu ise indirme linkini es geçip aşağıdan devam edin.&lt;/p&gt;
+
+&lt;p&gt;Git tamamsa konsolu açıp lolcatı kuralım.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;git clone https://github.com/rubygems/rubygems.git&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;İndirdiğiniz dizin içine girin ve aşağıda ki komutu verin(Ruby kurulu olması gerekir/varsayılan olarak kurulu gelir.)&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;ruby setup.rb&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Kurulumu test etmek için:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;gem &lt;span class=&quot;nt&quot;&gt;-v&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Gem paket yöneticisini kurduğumuza göre lolcat’a geçelim.
+Kurulum için aşağıda ki komutu vererek kuralım&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;gem &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;lolcat&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h1 id=&quot;kullanim&quot;&gt;KULLANIM&lt;/h1&gt;
+
+&lt;p&gt;lolcat tüm seçenekleri için lolcat -h komutunu verebilirsiniz.&lt;/p&gt;
+
+&lt;p&gt;Kullandığınız tüm komutları renkli çıktı olarak almak isterseniz:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&amp;lt;komut&amp;gt; | lolcat&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;cal | lolcat
+yada text olarak&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Renkli yazı&quot;&lt;/span&gt; | lolcat &lt;span class=&quot;nt&quot;&gt;-a&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-d&lt;/span&gt; 500&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+</description>
+        <pubDate>Sun, 18 Aug 2019 00:00:00 +0300</pubDate>
+        <link>http://localhost:4000/linux/2019/08/18/linux-renkli-cikti-almak-lolcat.html</link>
+        <guid isPermaLink="true">http://localhost:4000/linux/2019/08/18/linux-renkli-cikti-almak-lolcat.html</guid>
+        
+        <category>linux,</category>
+        
+        <category>lolcat</category>
+        
+        
+        <category>linux</category>
+        
+      </item>
     
       <item>
         <title>Pisi Linux Lazarus Kurulumu</title>
