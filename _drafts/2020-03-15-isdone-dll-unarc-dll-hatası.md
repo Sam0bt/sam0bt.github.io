@@ -48,4 +48,4 @@ Bu nalet hata yüzüden 1 saatir yapmadığım şey kalmadı. Acayip sinir bozuc
 
 Sorunun sebebi dosyaların(.bin) **virus olma ihtimali** yüzünden windows tarafından engelleniyor olması. Sorunu çözmek içinde **Makinanızda kurulu olan antivirüs yazılımını veya kurulu değilsede ‘Windows Defender’ adlı aleti devre dışı bırakmak imiş.**
 
-Böyle sorun başınıza gelirde google’a aratırsanız karşınıza böyle bir yazı çıksın diye blog’ta “Başıma Gelenler” kısmına ekledim. Bu sayede de ‘Başıma gelenler’ adlı bir kategori oluşturmuş oldum. Artık başıma gelenler hata ve başka şeyleri buraya yazmak far olacak sanırım.
+Böyle sorun başınıza gelirde google’a aratırsanız karşınıza böyle bir yazı çıksın diye blog’ta “Başıma Gelenler” kısmına ekledim. Bu sayede de ‘Başıma gelenler’ adlı bir kategori oluşturmuş oldum. Artık başıma gelenler hata ve başka şeyleri buraya yazmak farz olacak sanırım.
