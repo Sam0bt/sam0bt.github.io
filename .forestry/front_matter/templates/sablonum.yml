@@ -23,3 +23,5 @@ fields:
 - type: boolean
   name: finished
   label: finished
+pages:
+- _posts/isdone-dll-unarc-dll-hatası.md
