@@ -5,7 +5,7 @@ description: ISDone.dll, unarc.dll hatası
 author: Sami BABAT
 category: Başıma Gelenler
 tags: windows, delphi, RAD Studio
-finished: true
+finished: false
 
 ---
 ### ISDone.dll, unarc.dll hatası
